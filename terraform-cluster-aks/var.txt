@@ -1,0 +1,30 @@
+{
+  "appId": "25f11ff8-61b3-436b-930d-332fbe3bdab6",
+  "displayName": "azure-cli-2025-11-23-21-59-25",
+  "password": "vXQ8Q~Dfp11N~vTDnl_LSURzPuW3qFzRt2RnVb92",
+  "tenant": "0ec147d2-e91d-428a-a514-b4023b9a9f09"
+}
+
+
+az role assignment create \
+  --assignee 25f11ff8-61b3-436b-930d-332fbe3bdab6 \
+  --role Contributor \
+  --scope /subscriptions/742782a0-12f8-42d3-9f3b-ca00180f8fb1/resourceGroups/ContainerRG
+
+{
+  "condition": null,
+  "conditionVersion": null,
+  "createdBy": null,
+  "createdOn": "2025-11-23T22:20:05.656323+00:00",
+  "delegatedManagedIdentityResourceId": null,
+  "description": null,
+  "id": "/subscriptions/742782a0-12f8-42d3-9f3b-ca00180f8fb1/resourceGroups/ContainerRG/providers/Microsoft.Authorization/roleAssignments/684674a0-c7f6-4262-b77c-36926ba9b39b",
+  "name": "684674a0-c7f6-4262-b77c-36926ba9b39b",
+  "principalId": "ac3a4ada-13d2-41cc-b076-1864013e9d6b",
+  "principalType": "ServicePrincipal",
+  "resourceGroup": "ContainerRG",
+  "roleDefinitionId": "/subscriptions/742782a0-12f8-42d3-9f3b-ca00180f8fb1/providers/Microsoft.Authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+  "scope": "/subscriptions/742782a0-12f8-42d3-9f3b-ca00180f8fb1/resourceGroups/ContainerRG",
+  "type": "Microsoft.Authorization/roleAssignments",
+  "updatedBy": "7b321893-821e-4e6c-8e0b-92b824ad3100",
+  "updatedOn": "2025-11-23T22:20:06.011329+00:00"
