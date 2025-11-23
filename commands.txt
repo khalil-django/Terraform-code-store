@@ -1,0 +1,64 @@
+Here’s a **complete, categorized list of commonly used Terraform commands** (all you need for interviews and real-world work):
+
+---
+
+## **Core Terraform Commands**
+
+* **terraform init** – Initialize a working directory / download providers
+* **terraform plan** – Show what Terraform will do before applying
+* **terraform apply** – Create/update infrastructure
+* **terraform destroy** – Destroy managed infrastructure
+* **terraform validate** – Check syntax and configuration validity
+* **terraform fmt** – Format code to canonical style
+* **terraform show** – Show the current state or a plan file
+* **terraform providers** – Show providers used in the configuration
+* **terraform version** – Display Terraform version
+* **terraform help** – Show help menu
+
+---
+
+## **State Management Commands**
+
+* **terraform state list** – List resources in state
+* **terraform state show** – Show details of a resource in state
+* **terraform state pull** – Pull raw state
+* **terraform state push** – Push local state to remote backend
+* **terraform state rm** – Remove resource from state
+* **terraform state mv** – Move resource in state
+
+---
+
+## **Workspace Commands**
+
+* **terraform workspace list** – List all workspaces
+* **terraform workspace new** – Create a new workspace
+* **terraform workspace select** – Switch workspace
+* **terraform workspace delete** – Delete a workspace
+* **terraform workspace show** – Show current workspace
+
+---
+
+## **Import & Graph**
+
+* **terraform import** – Import existing resources to state
+* **terraform graph** – Generate visual graph of dependencies
+
+---
+
+## **Cloud / Enterprise**
+
+* **terraform login** – Authenticate with Terraform Cloud
+* **terraform logout** – Logout of Terraform Cloud
+* **terraform force-unlock** – Manually unlock a state file
+* **terraform taint** – Mark a resource for recreation
+* **terraform untaint** – Remove taint from a resource
+
+---
+
+If you want, I can also provide:
+✅ a downloadable cheat-sheet
+✅ the most important commands for interviews (short list)
+✅ real-world examples of each command
+
+Just tell me!
+
